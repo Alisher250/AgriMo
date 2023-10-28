@@ -70,4 +70,3 @@ def predict_weather(radiation, pressure, wind_direction, wind_speed, nitrogen, p
 predicted_data = predict_weather(1.21, 30.46, 176.78, 3.37, 85, 58, 41, 20.87974371, 82.00274423, 6.502985292000001, 202.9355362)
 print("Predicted Values for New Data:")
 print(predicted_data)
-
