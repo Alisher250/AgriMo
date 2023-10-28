@@ -7,7 +7,7 @@ def thermal_analysis(img):
 
 start = time.time()
 
-img = cv2.imread("01-31-hyg-fact-PP401_07.pdf.pdf-3_1.jpg")
+img = cv2.imread(path_to_image)
 img = cv2.resize(img, (250, 250))
 hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
